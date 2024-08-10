@@ -1,0 +1,16 @@
+{
+  "name": "devcamper_api",
+  "version": "1.0.0",
+  "description": "Devcamper backend API",
+  "main": "server.js",
+  "scripts": {
+    "start": "SET NODE_ENV=production node server",
+    "dev": "nodemon server"
+  },
+  "author": "Ryan Santiago",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
